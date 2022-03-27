@@ -3,9 +3,7 @@ var todaysDate = moment().format("dddd MMM Do");
 console.log(todaysDate);
 $("#currentDay").text(todaysDate);
 
-// var currentTime = moment().hour();
-var currentTime = 15;
-console.log(currentTime);
+var currentTime = moment().hour();
 
 $(".time-block").each(function () {
   var timeblockId = $(this).attr("id");
